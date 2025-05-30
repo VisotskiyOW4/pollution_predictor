@@ -1,0 +1,52 @@
+[
+  {
+    "model": "pollution_app.river",
+    "pk": 1,
+    "fields": {
+      "name": "Дніпро",
+      "lat": 50.45,
+      "lon": 30.52,
+      "description": "Найбільша річка України."
+    }
+  },
+  {
+    "model": "pollution_app.river",
+    "pk": 2,
+    "fields": {
+      "name": "Дністер",
+      "lat": 48.69,
+      "lon": 25.46,
+      "description": "Друга за довжиною річка України."
+    }
+  },
+  {
+    "model": "pollution_app.river",
+    "pk": 3,
+    "fields": {
+      "name": "Південний Буг",
+      "lat": 47.88,
+      "lon": 31.99,
+      "description": "Велика річка у центральній частині України."
+    }
+  },
+  {
+    "model": "pollution_app.river",
+    "pk": 4,
+    "fields": {
+      "name": "Сіверський Донець",
+      "lat": 49.65,
+      "lon": 37.84,
+      "description": "Основна притока Дону, важлива для Сходу."
+    }
+  },
+  {
+    "model": "pollution_app.river",
+    "pk": 5,
+    "fields": {
+      "name": "Тиса",
+      "lat": 48.26,
+      "lon": 22.14,
+      "description": "Гірська річка на Закарпатті."
+    }
+  }
+]
