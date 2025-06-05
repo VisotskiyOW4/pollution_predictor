@@ -40,7 +40,7 @@ def index(request):
         except Exception as e:
             prediction = f"Помилка: {str(e)}"
 
-    return render(request, 'index.html', {'prediction': prediction, 'months': months})
+    return render(request, 'pollution_app/index.html', {'prediction': prediction, 'months': months})
 
 def generate_series(base, months, nitrogen, flow_speed, temperature, ph):
     trend_coef = 1 + (0.1 * nitrogen) - (0.05 * flow_speed) + (0.03 * abs(ph - 7)) + (0.02 * (temperature - 10) / 10)
